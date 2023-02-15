@@ -1,5 +1,5 @@
 
-import React,{useEffect,useState} from 'react'
+import React,{useState} from 'react'
 
 function Score() {
 
@@ -16,11 +16,7 @@ const [disable4,setDisable4]=useState(false)
 const [disable5,setDisable5]=useState(false)
 const [disable6,setDisable6]=useState(false)
 
-  useEffect(() => {
-    setTimeout(() => {
-        <h1>Game Over</h1>
-    }, 10);
-  });
+
 
 return (
     <div>
